@@ -4,6 +4,7 @@ public class Threadd implements Runnable {
 	public  void run(){ 
 		Thread t1=new Thread();
 		System.out.println("thread is running...and Gitbash addeddd");  
+
 		for(int i=0;i<1000;i++){
 			System.out.println(i);
 			
